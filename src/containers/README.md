@@ -1,0 +1,1 @@
+Containers are components that tie the Redux State to React components. These will be wrapped around the modules of the application.

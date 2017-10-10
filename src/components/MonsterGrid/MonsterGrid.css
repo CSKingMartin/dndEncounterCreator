@@ -1,0 +1,20 @@
+.MonsterGrid {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 2;
+	overflow: scroll;
+	height: 100%;
+
+	&__search {
+		width: 100%;
+		overflow: hidden;
+		position: sticky;
+		height: 4em;
+	}
+
+	& > .MonsterCard {
+		width: 32%;
+		min-width: 180px;
+		flex-grow: 1;
+	}
+}

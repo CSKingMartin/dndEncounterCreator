@@ -1,0 +1,9 @@
+.EncounterCreator {
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	width: 75em;
+	border: 2px solid black;
+	height: 45em;
+}

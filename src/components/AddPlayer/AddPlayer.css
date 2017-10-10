@@ -1,0 +1,17 @@
+.AddPlayer {
+	background-color: #edeeef;
+	&__tab {
+		border-top: 2px solid black;
+		text-align: center;
+		height: 3em;
+	}
+
+	&__form {
+		display: none;
+		flex-wrap: wrap;
+
+		& * {
+			min-width: 50%;
+		}
+	}
+}

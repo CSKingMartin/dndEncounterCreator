@@ -1,0 +1,13 @@
+.App {
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	max-width: 75em;
+	border: 2px solid black;
+	max-height: 100vh;
+
+	* * {
+		box-sizing: border-box;
+	}
+}

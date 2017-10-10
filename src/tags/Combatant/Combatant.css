@@ -1,0 +1,19 @@
+.Combatant {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	text-align: center;
+
+	.Combatant__info {
+		display: flex;
+		flex-direction: row;
+
+		&__name {
+			flex: 2;
+		}
+
+		&__statBlock {
+			flex: 1;
+		}
+	}
+}
