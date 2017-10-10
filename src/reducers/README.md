@@ -3,36 +3,36 @@ Reducers are functions that take the current state and an action, and return a n
 
 # Example of State structure:
 ```
+{
+combatants: {
+ monsters: [
+  {
+   name: 'Goblin',
+   ...
+  },
+  {
+   name: 'Bugbear',
+   ...
+  }
+ ],
+ players: [
+  {
+   name: 'Kithri',
+   ac: 19,
+	 ...
+	},
 	{
-		combatants: {
-			monsters: [
-				{
-					name: 'Goblin',
-					...
-				},
-				{
-					name: 'Bugbear',
-					...
-				}
-			],
-			players: [
-				{
-					name: 'Kithri',
-					ac: 19,
-					...
-				},
-				{
-					name: Bralgir,
-					ac: 18,
-					...
-				}
-			],
-			totalCR: ''
-		},
-		monsterGrid: {
-			allData: [],
-			filteredData: []
-			filter: ''
-		}
+	 name: Bralgir,
+	 ac: 18,
+	 ...
 	}
+ ],
+ totalCR: ''
+},
+monsterGrid: {
+ allData: [],
+ filteredData: []
+ filter: ''
+}
+}
 ```
